@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - Inscription en ligne | UPC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">UPC</div>
+        <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="inscription.html">Inscription</a></li>
+            <li><a href="facultes.html">Facultés</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Inscription en Ligne</h1>
+        <p>Remplissez le formulaire pour commencer votre processus d'admission.</p>
+    </header>
+    <section id="inscription-form">
+        <h2>Formulaire d'inscription</h2>
+        <form action="enregistrer.php" method="POST">
+            <div class="form-group">
+                <label for="nom-complet">Nom complet</label>
+                <input type="text" id="nom-complet" name="nom-complet" required>
+            </div>
+            <div class="form-group">
+                <label for="email-ins">Adresse e-mail</label>
+                <input type="email" id="email-ins" name="email-ins" required>
+            </div>
+            <div class="form-group">
+                <label for="faculte-choix">Choix de la faculté</label>
+                <select id="faculte-choix" name="faculte-choix">
+                    <option value="theologie">Faculté de Théologie</option>
+                    <option value="droit">Faculté de Droit</option>
+                    <option value="eco">Faculté des Sciences Économiques et de Gestion</option>
+                    <option value="medecine">Faculté de Médecine</option>
+                    <option value="info">Faculté des Sciences informatiques</option>
+                </select>
+            </div>
+            <button type="submit" class="cta">Soumettre l'inscription</button>
+            
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Université Protestante au Congo. Tous droits réservés.</p>
+    </footer>
+</body>
+</html> 
