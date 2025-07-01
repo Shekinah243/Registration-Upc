@@ -14,7 +14,7 @@ Ce projet vise à fournir une plateforme web simple et intuitive permettant aux 
 
 1. **Cloner le dépôt**
    ```bash
-   git clone <url-du-dépôt>
+   git clone <https://github.com/criagi-upc/Shekinah243/Registration-Upc>
    ```
 2. **Accéder au dossier du projet**
    ```bash
